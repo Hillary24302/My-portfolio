@@ -1,6 +1,6 @@
-import { paths } from './paths';
-import HomePage from '../pages/guest/home/Home';
-import GuestLayout from '../layout/guest';
+import { paths } from "./paths";
+import HomePage from "../pages/guest/home/Home";
+import GuestLayout from "../layout/guest";
 
 export const guestRoutes = [
   {
@@ -11,8 +11,6 @@ export const guestRoutes = [
   },
 ];
 
-const WebRoutes =[
-  ...guestRoutes
-];
+const WebRoutes = [...guestRoutes];
 
-export default WebRoutes
+export default WebRoutes;
