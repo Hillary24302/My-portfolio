@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.63b7bfb7.css",
-    "main.js": "/My-portfolio/static/js/main.f6116a1a.js",
-    "static/js/453.acca0757.chunk.js": "/My-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/airpay.jpg": "/My-portfolio/static/media/airpay.b61bdbcb4109ca998bbb.jpg",
-    "static/media/airvendAdmin.jpg": "/My-portfolio/static/media/airvendAdmin.d7638b22e97dbf2f70ea.jpg",
-    "static/media/background.png": "/My-portfolio/static/media/background.f4caf0da8f2c25542cda.png",
-    "static/media/merchantDashboard.jpg": "/My-portfolio/static/media/merchantDashboard.7b7ef84ca3c331b8bf57.jpg",
-    "static/media/profilex.jpg": "/My-portfolio/static/media/profilex.dbeac5f7dabc0699f835.jpg",
-    "index.html": "/My-portfolio/index.html",
-    "main.63b7bfb7.css.map": "/My-portfolio/static/css/main.63b7bfb7.css.map",
-    "main.f6116a1a.js.map": "/My-portfolio/static/js/main.f6116a1a.js.map",
-    "453.acca0757.chunk.js.map": "/My-portfolio/static/js/453.acca0757.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.63b7bfb7.css",
+    "main.js": "/portfolio/static/js/main.c7b4e2d2.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/airpay.jpg": "/portfolio/static/media/airpay.b61bdbcb4109ca998bbb.jpg",
+    "static/media/airvendAdmin.jpg": "/portfolio/static/media/airvendAdmin.d7638b22e97dbf2f70ea.jpg",
+    "static/media/background.png": "/portfolio/static/media/background.f4caf0da8f2c25542cda.png",
+    "static/media/merchantDashboard.jpg": "/portfolio/static/media/merchantDashboard.7b7ef84ca3c331b8bf57.jpg",
+    "static/media/profilex.jpg": "/portfolio/static/media/profilex.dbeac5f7dabc0699f835.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.63b7bfb7.css.map": "/portfolio/static/css/main.63b7bfb7.css.map",
+    "main.c7b4e2d2.js.map": "/portfolio/static/js/main.c7b4e2d2.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63b7bfb7.css",
-    "static/js/main.f6116a1a.js"
+    "static/js/main.c7b4e2d2.js"
   ]
 }
