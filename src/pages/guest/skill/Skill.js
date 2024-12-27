@@ -3,7 +3,7 @@ import Container from "../../../components/container/container";
 import { useMediaQuery } from "react-responsive";
 
 const SkillPage = () => {
-  const isMobile = useMediaQuery({ query: "(max-size: 980px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 980px)" });
 
   return (
     <Container fluid>
@@ -13,7 +13,6 @@ const SkillPage = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginBottom: "20px",
           }}
         >
           <Typography
@@ -30,13 +29,16 @@ const SkillPage = () => {
         <Row
           gutter={[24, 24]}
           style={{
-            padding: isMobile ? "20px 20px" : "20px 100px 100px 100px",
+            padding: isMobile ? "20px 20px" : "20px 100px 20px 100px",
           }}
         >
           <Col xs={24} lg={12}>
             <Typography.Title
               level={4}
-              style={{ textAlign: "center", color: "#010101" }}
+              style={{
+                textAlign: "center",
+                color: "#010101",
+              }}
             >
               Technical Skills
             </Typography.Title>
@@ -77,7 +79,10 @@ const SkillPage = () => {
           <Col xs={24} lg={12}>
             <Typography.Title
               level={4}
-              style={{ textAlign: "center", color: "#010101" }}
+              style={{
+                textAlign: "center",
+                color: "#010101",
+              }}
             >
               Professional Skills
             </Typography.Title>

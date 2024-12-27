@@ -18,7 +18,7 @@ const AboutPage = () => {
             background: "#e7f2f0",
             borderRadius: "12px",
             paddingBottom: "20px",
-            marginTop: isMobile ? "60px" : "0px",
+            marginTop: isMobile ? "50px" : "0px",
           }}
         >
           {!isMobile && (

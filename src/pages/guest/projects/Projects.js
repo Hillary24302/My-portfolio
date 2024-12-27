@@ -30,7 +30,6 @@ const ProjectsPage = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginBottom: "20px",
           }}
         >
           <Typography
@@ -50,9 +49,7 @@ const ProjectsPage = () => {
             flexDirection: isMobile ? "column" : "row",
             justifyContent: "space-between",
             alignItems: "center",
-            padding: isMobile
-              ? "20px 50px 20px 50px"
-              : "20px 100px 100px 100px",
+            padding: isMobile ? "20px 20px 10px 20px" : "20px 100px 20px 100px",
           }}
         >
           {/* Web Design Card */}

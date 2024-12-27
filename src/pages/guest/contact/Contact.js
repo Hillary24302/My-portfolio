@@ -71,7 +71,7 @@ const ContactPage = () => {
         <Row
           gutter={[48, 24]}
           style={{
-            padding: isMobile ? "20px" : "20px 100px 100px 100px",
+            padding: isMobile ? "10px" : "20px 100px 100px 100px",
           }}
         >
           {/* Technical Skills */}

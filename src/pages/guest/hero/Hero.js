@@ -9,7 +9,7 @@ const HeroPage = () => {
     <div
       style={{
         display: "flex",
-        padding: isMobile ? "20px 0px" : "0px 20px",
+        padding: isMobile ? "10px 0px" : "0px 20px",
         flexDirection: isMobile ? "column" : "row",
         justifyContent: "space-between",
         alignItems: "center",

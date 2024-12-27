@@ -27,7 +27,6 @@ const ServicePage = () => {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginBottom: "20px",
             marginTop: "30px",
           }}
         >
@@ -48,9 +47,7 @@ const ServicePage = () => {
             flexDirection: isMobile ? "column" : "row",
             justifyContent: "space-between",
             alignItems: "center",
-            padding: isMobile
-              ? "20px 50px 20px 50px"
-              : "20px 100px 100px 100px",
+            padding: isMobile ? "20px 50px 20px 50px" : "20px 100px 20px 100px",
           }}
         >
           {/* Web Design Card */}
