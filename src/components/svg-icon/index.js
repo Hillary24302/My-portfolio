@@ -1,4 +1,9 @@
-export const SvgCollapse = ({color="#D6A217", collapsed = false, size = 24, ...rest }) => {
+export const SvgCollapse = ({
+  color = "#D6A217",
+  collapsed = false,
+  size = 24,
+  ...rest
+}) => {
   return (
     <svg
       width={`${size}px`}
@@ -27,9 +32,32 @@ export const SvgCollapse = ({color="#D6A217", collapsed = false, size = 24, ...r
     </svg>
   );
 };
-export const SvgDashboard = ({color= '#D6A217', collapsed = false, size = 24, ...rest }) => {
+export const SvgMessageIcon = ({ color = "#FBFBFE", size = 20, ...rest }) => {
   return (
-<svg
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="20"
+      fill="none"
+      viewBox="0 0 20 20"
+    >
+      <path
+        fill="rgba(0, 0, 0, 0.25)"
+        fillRule="evenodd"
+        d="M15.834 17.5a3.333 3.333 0 0 0 3.333-3.333V5.833A3.333 3.333 0 0 0 15.834 2.5H4.167A3.333 3.333 0 0 0 .834 5.833v8.333A3.333 3.333 0 0 0 4.167 17.5h11.667ZM2.5 14.167c0 .92.747 1.666 1.667 1.666h11.667c.92 0 1.666-.746 1.666-1.666v-6.27l-6.262 2.505a3.333 3.333 0 0 1-2.476 0L2.5 7.898v6.269Zm8.12-5.312 6.88-2.753v-.269c0-.92-.746-1.666-1.666-1.666H4.167c-.92 0-1.667.746-1.667 1.666v.27l6.881 2.752c.398.159.841.159 1.238 0Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
+export const SvgDashboard = ({
+  color = "#D6A217",
+  collapsed = false,
+  size = 24,
+  ...rest
+}) => {
+  return (
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -47,7 +75,7 @@ export const SvgDashboard = ({color= '#D6A217', collapsed = false, size = 24, ..
 };
 export const SvgFlight = ({ collapsed = false, size = 24, ...rest }) => {
   return (
-<svg
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -69,7 +97,7 @@ export const SvgFlight = ({ collapsed = false, size = 24, ...rest }) => {
 };
 export const SvgWallet = ({ collapsed = false, size = 24, ...rest }) => {
   return (
-<svg
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -87,7 +115,7 @@ export const SvgWallet = ({ collapsed = false, size = 24, ...rest }) => {
 };
 export const SvgReport = ({ collapsed = false, size = 24, ...rest }) => {
   return (
-<svg
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -103,9 +131,14 @@ export const SvgReport = ({ collapsed = false, size = 24, ...rest }) => {
     </svg>
   );
 };
-export const SvgStat = ({color = '#D6A217', collapsed = false, size = 24, ...rest }) => {
+export const SvgStat = ({
+  color = "#D6A217",
+  collapsed = false,
+  size = 24,
+  ...rest
+}) => {
   return (
-<svg
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -131,9 +164,31 @@ export const SvgStat = ({color = '#D6A217', collapsed = false, size = 24, ...res
     </svg>
   );
 };
+export const SvgAdd = ({ color = "#FBFBFE", size = 20, ...rest }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="20"
+      height="21"
+      fill="none"
+      viewBox="0 0 20 21"
+    >
+      <path
+        fill="#173b3f"
+        d="M10.833 8a.833.833 0 1 0-1.666 0v1.667H7.5a.833.833 0 1 0 0 1.666h1.667V13a.833.833 0 0 0 1.666 0v-1.667H12.5a.833.833 0 0 0 0-1.666h-1.667V8Z"
+      />
+      <path
+        fill="#173b3f"
+        fillRule="evenodd"
+        d="M10 2.167a8.333 8.333 0 1 0 0 16.666 8.333 8.333 0 0 0 0-16.666ZM3.333 10.5a6.667 6.667 0 1 1 13.334 0 6.667 6.667 0 0 1-13.334 0Z"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+};
 export const SvgSetting = ({ collapsed = false, size = 24, ...rest }) => {
   return (
-<svg
+    <svg
       width={20}
       height={20}
       fill="none"
@@ -159,46 +214,45 @@ export const SvgSetting = ({ collapsed = false, size = 24, ...rest }) => {
 export const SvgDownload = ({ collapsed = false, size = 24, ...rest }) => {
   return (
     <svg
-    width={18}
-    height={19}
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...rest}
-  >
-    <path
-      d="M12.923 10.423l-3.334 3.333a.833.833 0 01-1.178 0l-3.334-3.333a.833.833 0 011.179-1.179l1.91 1.91V1.5a.833.833 0 011.667 0v9.655l1.911-1.91a.833.833 0 111.179 1.178z"
-      fill="#fff"
-    />
-    <path
-      d="M2.333 13.583a.833.833 0 00-1.666 0v1.25A3.333 3.333 0 004 18.167h10a3.333 3.333 0 003.333-3.334v-1.25a.833.833 0 00-1.666 0v1.25c0 .92-.746 1.667-1.667 1.667H4c-.92 0-1.667-.746-1.667-1.667v-1.25z"
-      fill="#fff"
-    />
-  </svg>
-
+      width={18}
+      height={19}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <path
+        d="M12.923 10.423l-3.334 3.333a.833.833 0 01-1.178 0l-3.334-3.333a.833.833 0 011.179-1.179l1.91 1.91V1.5a.833.833 0 011.667 0v9.655l1.911-1.91a.833.833 0 111.179 1.178z"
+        fill="#fff"
+      />
+      <path
+        d="M2.333 13.583a.833.833 0 00-1.666 0v1.25A3.333 3.333 0 004 18.167h10a3.333 3.333 0 003.333-3.334v-1.25a.833.833 0 00-1.666 0v1.25c0 .92-.746 1.667-1.667 1.667H4c-.92 0-1.667-.746-1.667-1.667v-1.25z"
+        fill="#fff"
+      />
+    </svg>
   );
 };
 
 export const SvgStop = ({ color = "#FBFBFE", size = 20, ...rest }) => {
   return (
     <svg
-    width={17}
-    height={17}
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...rest}
-  >
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M14.905 8.5a6 6 0 11-12 0 6 6 0 0112 0zm-6-4c.368 0 .666.298.666.667v4.666a.667.667 0 01-1.333 0V5.167c0-.369.298-.667.667-.667zm-.834 7.167a.833.833 0 101.667 0 .833.833 0 00-1.667 0z"
-      fill="#F56630"
-    />
-  </svg>
+      width={17}
+      height={17}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <path
+        fillRule="evenodd"
+        clipRule="evenodd"
+        d="M14.905 8.5a6 6 0 11-12 0 6 6 0 0112 0zm-6-4c.368 0 .666.298.666.667v4.666a.667.667 0 01-1.333 0V5.167c0-.369.298-.667.667-.667zm-.834 7.167a.833.833 0 101.667 0 .833.833 0 00-1.667 0z"
+        fill="#F56630"
+      />
+    </svg>
   );
 };
 export const SvgRightArrow = ({ color = "#FBFBFE", size = 20, ...rest }) => {
   return (
-<svg
+    <svg
       width={13}
       height={14}
       fill="none"
@@ -210,23 +264,21 @@ export const SvgRightArrow = ({ color = "#FBFBFE", size = 20, ...rest }) => {
         fill="#F56630"
       />
     </svg>
-
   );
 };
 export const SvgMenus = ({ color = "#FBFBFE", size = 20, ...rest }) => {
   return (
     <svg
-    width={3}
-    height={16}
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    {...rest}
-  >
-    <path
-      d="M2.75 1.333a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM2.75 8a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM1.5 15.917a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z"
-      fill="#000"
-    />
-  </svg>
-
+      width={3}
+      height={16}
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      {...rest}
+    >
+      <path
+        d="M2.75 1.333a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM2.75 8a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM1.5 15.917a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z"
+        fill="#000"
+      />
+    </svg>
   );
 };

@@ -1,0 +1,52 @@
+
+.k-button {
+    display: flex;
+    background: #0fddcc;
+    color: #173b3f;
+    font-weight: 600;
+    text-decoration: none;
+   border-radius: 8px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.k-button:visited {
+    color: #173b3f;
+    font-weight: 600;
+}
+
+.k-button:hover {
+    color: fade(#fff, 80%);
+}
+
+.k-button-primary {
+    background: #0fddcc;
+    font-weight: 600;
+    color: #173b3f;
+    width: 100%;
+}
+
+.k-button-outline.k-button-primary {
+    background-color: transparent;
+    font-weight: 600;
+    border: 1px solid #fff;
+    color: #173b3f;
+}
+
+.k-button-outline.k-button-primary:hover {
+    background-color: #4834d4;
+    border: 1px solid #4834d4;
+    color: #fff;
+}
+
+
+.k-button-secondary {
+    background-color: #4834d4;
+    color: #fff;
+}
+
+.k-button-default {
+    background-color: #4834d4;
+    color: #000;
+}
