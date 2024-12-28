@@ -17,7 +17,7 @@ const HeroPage = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        height: "100vh",
+        height: isMobile ? "100%" : "100vh",
       }}
     >
       <div
@@ -197,12 +197,15 @@ const HeroPage = () => {
           style={{
             width: isMobile ? "300px" : "400px",
             height: isMobile ? "300px" : "400px",
+            maxWidth: "100%",
+            maxHeight: "100%",
             borderRadius: "50%",
             background: "radial-gradient(circle, #FFD700, #06122A)",
             padding: "2px",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
+            overflow: "hidden",
           }}
         >
           <img

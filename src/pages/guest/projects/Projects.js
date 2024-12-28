@@ -9,7 +9,7 @@ const ProjectsPage = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 980px)" });
 
   const neumorphicStyle = {
-    boxShadow: "8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff",
+    boxShadow: "4px 4px 8px #d1d9e6, -4px -4px 8px #ffffff",
     borderRadius: "12px",
     background: "#e7f2f0",
     height: "200px",
